@@ -1,0 +1,10 @@
+{
+  "name": "com.lionstudios.local.adjust.unity-sdk",
+  "lionId": "ADJ",
+  "author": "Lion Studios - Third Party SDKs",
+  "displayName": "Adjust Unity SDK",
+  "version": "0.0.0",
+  "description": "Adjust",
+  "samples": [],
+  "dependencies": {}
+}
