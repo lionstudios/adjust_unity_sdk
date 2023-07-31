@@ -1,6 +1,7 @@
 // Inspired by: https://github.com/facebook/facebook-sdk-for-unity/blob/master/Facebook.Unity.Settings/FacebookSettings.cs
 
 using System.Collections.Generic;
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -50,7 +51,7 @@ public class AdjustSettings : ScriptableObject
                 {
                     return instance;
                 }
-                var assetPath = AssetDatabase.GUIDToAssetPath(guids[0]).Replace("AdjustSettings.cs", "AdjustSettings.asset");
+                var assetPath = Path.Combine("Assets", "Adjust", "AdjustSettings.asset");
                 AssetDatabase.CreateAsset(instance, assetPath);
             }
 
