@@ -51,7 +51,9 @@ public class AdjustSettings : ScriptableObject
                 {
                     return instance;
                 }
-                var assetPath = Path.Combine("Assets", "Adjust", "AdjustSettings.asset");
+                var assetDirectory = Path.Combine("Assets", "Adjust");
+                Directory.CreateDirectory(assetDirectory);
+                var assetPath = Path.Combine(assetDirectory, "AdjustSettings.asset");
                 AssetDatabase.CreateAsset(instance, assetPath);
             }
 
