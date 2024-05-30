@@ -1,3 +1,11 @@
+**Lion Note**:
+
+This project is no longer used for updating our UPM version of Adjust SDK.
+We now use [this pipeline](https://us-west-2.console.aws.amazon.com/codesuite/codepipeline/pipelines/Lion-Adjust-publisher), which uses [Adjust's public repository](https://github.com/adjust/unity_sdk) and [this new repo](https://github.com/lionstudios/lion-adjust-publisher) that contains content to add to it before publishing to npm.  
+<br/><br/>
+
+
+
 ## Summary
 
 This is the Unity SDK of Adjust™. It supports iOS, Android, Windows Store 8.1 and Windows 10 targets. You can read more about Adjust™ at [adjust.com]. 
